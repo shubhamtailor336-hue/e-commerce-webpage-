@@ -1,0 +1,142 @@
+body{
+            background:black;
+        }
+
+        .navbar{
+            background: linear-gradient(90deg,#0d6efd,#6610f2);
+            padding:15px 0;
+        }
+
+        .navbar-brand{
+            font-size:30px;
+            font-weight:bold;
+            color:white!important;
+            letter-spacing:1px;
+            position: relative;
+            right: 0;
+        }
+
+        .nav-link{
+            color:white !important;
+            font-weight:500;
+            margin:0 8px;
+            transition:.3s;
+        }
+
+        .nav-link:hover{
+            color:#ffd43b !important;
+            transform:translateY(-1px);
+        }
+
+        .search-box{
+            border-radius:30px;
+            overflow:hidden;
+        }
+
+        .search-box input{
+            border:none;
+        }
+
+        .search-box input:focus{
+            box-shadow:none;
+        }
+
+        .cart-icon{
+            font-size:24px;
+            color:white;
+            margin-right:20px;
+            cursor:pointer;
+            transition:.3s;
+        }
+
+        .cart-icon:hover{
+            color:#ffd43b;
+        }
+
+        .login-btn{
+            border-radius:30px;
+            padding:8px 20px;
+            font-weight:bold;
+        }
+        #card:hover{
+        transition: all 0.5s ease;
+         transform: translatey(-5px);
+         
+        }
+    .hero{
+    width:100%;
+    min-height:90vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 8%;
+    background:#f8f9fa;
+    gap:40px;
+    }
+
+.hero-content{
+    flex:1;
+}
+
+.hero-content h1{
+    font-size:70px;
+    font-weight: bold;
+    color:#222;
+    margin-bottom:20px;
+    line-height:1.2;
+    animation: shubham 2s ease-out;
+}
+@keyframes shubham{
+    from{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to{
+     transform: translateX(0);
+    }
+}
+.hero-content p{
+    font-size:18px;
+    color:#666;
+    margin-bottom:30px;
+    max-width:500px;
+}
+
+.hero-content button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#4f46e5;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.hero-content button:hover{
+    background:#2f1cc7;
+    transform:translateY(-3px);
+    box-shadow:0px 0px 15px darkblue;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:550px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+#card2{
+    border-radius: 5px;
+}
+#card2:hover{
+transition: all 0.5s ease;
+transform: translateY(-5px);
+cursor: pointer;
+border: 2px solid blue;
+box-shadow: 0px 0px 10px blue;
+}
